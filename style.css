@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*======================================= 
+        normal body style start here
+=========================================*/
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+/*======================================= 
+        normal body style end here
+=========================================*/
+
+/*======================================= 
+        container body style start here
+=========================================*/
+.container{
+    max-width: 970px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 5px;
+}
+/*======================================= 
+        container body style end here
+=========================================*/
+
+/*======================================= 
+        header style start here
+=========================================*/
+header >img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    margin: 0px;
+    
+
+}
+.header-bio{
+    float: left;
+    padding: 30px 10px;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999E;
+    margin: 0 auto;
+    font-weight: 550;
+}
+.header-contact{
+    float: right;
+    padding: 2px;
+    font-weight: bold;
+}
+.header-contact>p>a{
+    text-decoration: none;
+    color: teal;
+}
+.header-contact>p>a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+/*======================================= 
+        header style end here
+=========================================*/
+
+/*======================================= 
+        div clear section start here
+=========================================*/
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 18px auto;
+    border-bottom: none;
+}
+
+/*================================================= 
+        personal information section start here
+====================================================*/
+
+.left-side{
+    float: left;
+    width: 30%;
+}
+.right-side{
+    float: left;
+    width: 70%;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+.common-hr{
+    border: 1px solid black;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+.content{
+    padding: 10px;
+}
+
+/*================================================= 
+        personal information section end here
+====================================================*/
+
+/*================================================= 
+        work experience section start here
+====================================================*/
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+/*================================================= 
+        work experience section end here
+====================================================*/
+
+
+a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+/*================================================= 
+        education section end here
+====================================================*/
+
+.left-edu-part{
+    float: left;
+    width: 50%;
+}
+.right-edu-part{
+    float: left;
+    width: 50%;
+}
+/* .right-all-edu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+.last-edu-left{
+    position: relative;
+    left: -50%;
+    top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+
+
+/*================================================= 
+        education section end here
+====================================================*/
+
+
+/*================================================= 
+        fotter section start here
+====================================================*/
+.bottom-footer{
+    text-align: center;
+    background-color: #ddd;
+    padding: 10px 0;
+}
+.bottom-footer p{
+    display: inline-block;
+    width: 50%;
+    background-color: lightblue;
+    border:  2px solid lightsalmon;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.social-section a {
+    color: lightsalmon;
+    font-weight: 550;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.social-section a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0,0,0,100;
+}
+/*================================================= 
+        fotter section end here
+====================================================*/
